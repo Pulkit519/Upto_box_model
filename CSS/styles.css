@@ -9,21 +9,21 @@ h1{
   background-color: #FF9F29;
   height: 200px;
   width: 200px;
-  padding:20px;
-  border: solid 10px;
+  position: absolute;
+  left: 400px;
+  top:400px;
+
 }
 .middle-container{
   height: 200px;
   width: 200px;
   background-color: #F4E06D;
-  margin-left: 255px;
-  margin-right: 255px;
-  border: solid 20px;
+  position: absolute;
+  left: 200px;
+  top:200px;
 }
 .bottom-container{
   height: 200px;
   width: 200px;
-  margin-left: 490px;
   background-color: #EE81B3;
-  border: solid 10px;
 }
