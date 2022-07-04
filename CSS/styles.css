@@ -1,29 +1,138 @@
 body{
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 h1{
-  margin: 0;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+P{
+  line-height: 2;
+}
+h2{
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Oswald', sans-serif;
+}
+h3{
+  color:  #11999E;
+  font-family: 'Merriweather', serif;
 }
 .top-container
 {
-  background-color: #FF9F29;
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  left: 400px;
-  top:400px;
-
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top : 100px;
 }
 .middle-container{
-  height: 200px;
-  width: 200px;
-  background-color: #F4E06D;
-  position: absolute;
-  left: 200px;
-  top:200px;
+  margin:100px 0 50px 0;
+}
+/*.middle-container{
 }
 .bottom-container{
+}*/
+/*.insidediv{
+  background-color: grey;
+  height:400px;
+  width:400px;
+}*/
+.bottom-cloud{
+  position: absolute;
+  bottom:300px;
+  left:300px;
+}
+.top-cloud{
+  position: absolute;
+  right:395px;
+  top:50px;
+  }
+.personel{
+  height: 250px;
+  border-radius: 100%;
+}
+.solving{
+  height: 250px;
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+.coding{
+  height: 250px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 80px auto;
+  text-align: left;
+}
+.phone{
+  border-radius: 100%;
   height: 200px;
-  width: 200px;
-  background-color: #EE81B3;
+}
+.footer-link{
+  color:  #11999E;
+}
+.para1{
+  color:#40514E;
+  width: 30%;
+  margin: auto;
+}
+hr{
+  border-style: dotted none none;
+  border-width: 8px;
+  width: 5%;
+  color:#EAF6F6;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.btn {
+  margin-top: 50px;
+   background: #30e3cb;
+   color: #FFFFFF;
+   font-family: arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 8px 15px 8px 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 10px;
+   text-align: center;
+}
+
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #2bc4ad;
+   text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+a{
+  color: #11999E;
+font-family: 'Oswald', sans-serif;
+  margin: 10px 50px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.footer-link{
+  margin-right: 80px;
+  text-decoration: none;
+}
+.para2{
+  margin-top: 30px;
+  color: #EAF6F6;
+}
+.para3{
+  color:#40514E;
+  width: 30%;
+  margin: auto;
 }
